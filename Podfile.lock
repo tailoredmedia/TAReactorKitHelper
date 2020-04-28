@@ -1,0 +1,20 @@
+PODS:
+  - ReactorKit (2.0.1):
+    - RxSwift (~> 5.0)
+  - RxSwift (5.0.0)
+
+DEPENDENCIES:
+  - ReactorKit
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - ReactorKit
+    - RxSwift
+
+SPEC CHECKSUMS:
+  ReactorKit: a63c5e11e0fd32d59d672e54178b0ed2876b764b
+  RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
+
+PODFILE CHECKSUM: 359145db99711cfeb310053ddd77641010b1597f
+
+COCOAPODS: 1.9.1
