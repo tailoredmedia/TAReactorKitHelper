@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 TAReactorKitHelper. That's it...
                        DESC
 
-  s.homepage         = 'https://github.com/oanhof'
+  s.homepage         = 'https://www.tailored-apps.com'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Dominik Arnhof' => 'da@tailored-apps.com', 'Mario Hahn' => 'mh@tailored-apps.com' }
   s.source           = { :git => 'https://github.com/tailoredmedia/TAReactorKitHelper.git', :tag => s.version.to_s }
