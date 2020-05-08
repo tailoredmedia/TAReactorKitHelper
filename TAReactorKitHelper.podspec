@@ -23,14 +23,12 @@ TAReactorKitHelper. That's it...
   s.osx.deployment_target = "10.11"
   s.watchos.deployment_target = '3.0'
 
-  s.source_files = 'TAReactorKitHelper/**/*.swift'
-
-  s.dependency 'ReactorKit'
-
+  s.source_files = 'Sources/TAReactorKitHelper/**/*.swift'
+  
   s.test_spec 'Tests' do |test_spec|
     test_spec.ios.deployment_target = '9.0'
     test_spec.tvos.deployment_target = '9.0'
     test_spec.osx.deployment_target = '10.11'
-    test_spec.source_files = 'TAReactorKitHelperTests/**/*.swift'
+    test_spec.source_files = 'Tests/TAReactorKitHelperTests/**/*.swift'
   end
 end

@@ -7,8 +7,6 @@
 //
 
 import Foundation
-import ReactorKit
-import RxSwift
 
 public enum AsyncAction<T>: Equatable {
     
@@ -82,6 +80,10 @@ public enum AsyncLoad<T>: Equatable {
     }
 }
 
+#if canImport(ReactorKit) && canImport(RxSwift)
+import RxSwift
+import ReactorKit
+
 extension Reactor {
     public func values<T>(_ stateKeyPath: KeyPath<State, T>) -> Observable<T> {
         return state.map { $0[keyPath: stateKeyPath] }
@@ -95,3 +97,5 @@ extension Reactor {
         return values(stateKeyPath).distinctUntilChanged(comparer)
     }
 }
+
+#endif
