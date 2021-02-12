@@ -27,6 +27,8 @@ TAReactorKitHelper. That's it...
 
   s.dependency 'ReactorKit'
 
+  s.swift_versions = "5.0"
+
   s.test_spec 'Tests' do |test_spec|
     test_spec.ios.deployment_target = '9.0'
     test_spec.tvos.deployment_target = '9.0'
